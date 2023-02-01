@@ -6,7 +6,7 @@ namespace Web_API_DB.Model.Context
     {
         public Context(DbContextOptions options) : base(options)
         {
-
+            //Base constructor
         }
 
         public DbSet<User> Users { get; set; }
